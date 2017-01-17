@@ -1,2 +1,2 @@
-# MachineLearning
-First Steps in Machine Learning Algorithms
+# Machine Learning
+This repository contains my First Steps in Machine Learning Algorithms
