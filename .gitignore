@@ -1,1 +1,6 @@
 *.pdf
+*.zip
+*.m~
+submit.m
+token.mat
+lib/

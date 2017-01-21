@@ -30,7 +30,7 @@ function [a, b] = linearRegression(x, y, alpha, tol, start_a, start_b)
     while(1)
         % New values for iteration
         new_b = start_b - alpha ./ m .*  sum((start_b + start_a .* x) - y);
-        new_a = start_a - alpha ./ m .*  sum(((start_b + start_a .* x) - y) .* x);
+        new_a = start_a - alpha ./ m .*  sum(((start_b + start_a .* x) - y) .* x');
         
         % Check for convergence
         if( abs(new_a - start_a) <= tol && abs(new_b - start_b) <= tol)
